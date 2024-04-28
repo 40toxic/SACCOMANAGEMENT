@@ -44,7 +44,7 @@ const menuGroups = ref([
                 </svg>`,
         label: 'Dashboard',
         route: '#',
-        children: [{ label: 'eCommerce', route: '/' }]
+        children: [{ label: 'Home', route: '/' }]
       },
       {
         icon: `<svg
@@ -60,8 +60,8 @@ const menuGroups = ref([
                     fill=""
                   />
                 </svg>`,
-        label: 'Calendar',
-        route: '/calendar'
+        label: 'Savingsperfomance',
+        route: '/savingsperfomance'
       },
       {
         icon: `<svg
@@ -301,9 +301,7 @@ const menuGroups = ref([
   >
     <!-- SIDEBAR HEADER -->
     <div class="flex items-center justify-between gap-2 px-6 py-5.5 lg:py-6.5">
-      <router-link to="/">
-        <img src="@/assets/images/logo/logo.svg" alt="Logo" />
-      </router-link>
+      
 
       <button class="block lg:hidden" @click="sidebarStore.isSidebarOpen = false">
         <svg
@@ -343,21 +341,7 @@ const menuGroups = ref([
       </nav>
       <!-- Sidebar Menu -->
 
-      <!-- Promo Box -->
-      <div
-        class="mx-auto mb-10 w-full max-w-60 rounded-sm border border-strokedark bg-boxdark py-6 px-4 text-center shadow-default"
-      >
-        <h3 class="mb-1 font-semibold text-white">TailAdmin Pro</h3>
-        <p class="mb-4 text-xs">Get All Dashboards and 300+ UI Elements</p>
-        <a
-          href="https://tailadmin.com/pricing"
-          target="_blank"
-          rel="nofollow"
-          class="flex items-center justify-center rounded-md bg-primary p-2 font-medium text-white hover:bg-opacity-90"
-        >
-          Purchase Now
-        </a>
-      </div>
+      
       <!-- Promo Box -->
     </div>
   </aside>

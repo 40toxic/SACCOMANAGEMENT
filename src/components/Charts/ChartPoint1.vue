@@ -7,11 +7,11 @@ const chartData = {
   series: [
     {
       name: 'Savings',
-      data: [100, 55, 41, 20, 22, 43, 65]
+      data: [20, 55, 41, 20, 22, 43, 65]
     },
     {
-      name: 'products',
-      data: [30, 23, 20, 8, 13, 27, 15]
+      name: 'General perfomance',
+      data: [80, 23, 20, 8, 13, 27, 15]
     }
   ],
   labels: ['M', 'T', 'W', 'T', 'F', 'S', 'S']

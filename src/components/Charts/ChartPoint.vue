@@ -6,13 +6,21 @@ import VueApexCharts from 'vue3-apexcharts'
 const chartData = {
   series: [
     {
-      name: 'Product One',
-      data: [11, 15, 22, 27, 13, 22, 37, 21, 44, 22, 30, 45]
+      name: 'Customer Overview ',
+      data: [2, 15, 26, 34, 40, 50, 60, 70, 72, 70, 75, 88, 88, 75, 89 ]
+    },
+    {
+      name: 'Emergency Fund',
+      data: [2, 15, 26, 34, 40, 50, 60, 70, 72, 70, 75, 88, 64, 48, 89]
+    },
+    {
+      name: 'Long-Term Goals',
+      data: [2, 15, 26, 34, 40, 50, 60, 70, 72, 58, 65, 75, 88, 75, 89]
     },
 
     {
-      name: 'Product Two',
-      data: [5, 10, 20, 30, 45, 35, 64, 52, 59, 36, 39, 51]
+      name: 'Short-Term Goals',
+      data: [5, 8, 11, 14, 21, 28, 35, 42, 49, 45, 51, 57, 52, 47, 42, 35]
     }
   ],
   labels: ['Sep', 'Oct', 'Nov', 'Dec', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug']
@@ -135,7 +143,7 @@ const apexOptions = {
             <span class="block h-2.5 w-full max-w-2.5 rounded-full bg-primary"></span>
           </span>
           <div class="w-full">
-            <p class="font-semibold text-primary">Total savings</p>
+            <p class="font-semibold text-primary">PRODUCT OVERVIEW</p>
             <p class="text-sm font-medium">12.04.2023 - 12.05.2024</p>
           </div>
         </div>
@@ -146,7 +154,7 @@ const apexOptions = {
             <span class="block h-2.5 w-full max-w-2.5 rounded-full bg-secondary"></span>
           </span>
           <div class="w-full">
-            <p class="font-semibold text-red">Total Products</p>
+            <p class="font-semibold text-red">CUSTOMER OVERVIEW</p>
             <p class="text-sm font-medium">12.04.2023 - 12.05.2024</p>
           </div>
         </div>

@@ -2,9 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import SigninView from '@/views/Authentication/SigninView.vue'
 import SignupView from '@/views/Authentication/SignupView.vue'
-import CalendarView from '@/views/CalendarView.vue'
+import Savingsperfomance from '@/views/Savingsperfomance.vue'
 import BasicChartView from '@/views/Charts/BasicChartView.vue'
-import ECommerceView from '@/views/Dashboard/ECommerceView.vue'
+import Home from '@/views/Dashboard/Home.vue'
 import FormElementsView from '@/views/Forms/FormElementsView.vue'
 import FormLayoutView from '@/views/Forms/FormLayoutView.vue'
 import SettingsView from '@/views/Pages/SettingsView.vue'
@@ -16,18 +16,18 @@ import ButtonsView from '@/views/UiElements/ButtonsView.vue'
 const routes = [
   {
     path: '/',
-    name: 'eCommerce',
-    component: ECommerceView,
+    name: 'Home',
+    component: Home,
     meta: {
-      title: 'eCommerce Dashboard'
+      title: 'Home Dashboard'
     }
   },
   {
-    path: '/calendar',
-    name: 'calendar',
-    component: CalendarView,
+    path: '/Savingsperfomance',
+    name: 'Savingsperfomance',
+    component: Savingsperfomance,
     meta: {
-      title: 'Calendar'
+      title: 'Savingsperfomance'
     }
   },
   {

@@ -47,7 +47,7 @@
         class="relative z-30 mx-auto -mt-22 h-30 w-full max-w-30 rounded-full bg-white/20 p-1 backdrop-blur sm:h-44 sm:max-w-44 sm:p-3"
       >
         <div class="relative drop-shadow-2">
-          <img src="@/assets/images/user/user-06.png" alt="profile" />
+          <img src="@/assets/images/user/user-25.png" alt="profile" />
           <label
             for="profile"
             class="absolute bottom-0 right-0 flex h-8.5 w-8.5 cursor-pointer items-center justify-center rounded-full bg-primary text-white hover:bg-opacity-90 sm:bottom-2 sm:right-2"
@@ -78,36 +78,33 @@
         </div>
       </div>
       <div class="mt-4">
-        <h3 class="mb-1.5 text-2xl font-medium text-black dark:text-white">Danish Heilium</h3>
-        <p class="font-medium">Ui/Ux Designer</p>
+        <h3 class="mb-1.5 text-2xl font-medium text-black dark:text-white">IAN KAMANDE</h3>
+        <p class="font-medium">SACCO ADMIN </p>
         <div
           class="mx-auto mt-4.5 mb-5.5 grid max-w-94 grid-cols-3 rounded-md border border-stroke py-2.5 shadow-1 dark:border-strokedark dark:bg-[#37404F]"
         >
           <div
             class="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-row"
           >
-            <span class="font-semibold text-black dark:text-white">259</span>
-            <span class="text-sm">Posts</span>
+            <span class="font-semibold text-black dark:text-white">80K</span>
+            <span class="text-sm">LOANS</span>
           </div>
           <div
             class="flex flex-col items-center justify-center gap-1 border-r border-stroke px-4 dark:border-strokedark xsm:flex-row"
           >
             <span class="font-semibold text-black dark:text-white">129K</span>
-            <span class="text-sm">Followers</span>
+            <span class="text-sm">MEMBERS</span>
           </div>
           <div class="flex flex-col items-center justify-center gap-1 px-4 xsm:flex-row">
-            <span class="font-semibold text-black dark:text-white">2K</span>
-            <span class="text-sm">Following</span>
+            <span class="font-semibold text-black dark:text-white">4</span>
+            <span class="text-sm">PRODUCTS</span>
           </div>
         </div>
 
         <div class="mx-auto max-w-180">
           <h4 class="font-medium text-black dark:text-white">About Me</h4>
           <p class="mt-4.5 text-sm font-normal">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere fermentum
-            urna, eu condimentum mauris tempus ut. Donec fermentum blandit aliquet. Etiam dictum
-            dapibus ultricies. Sed vel aliquet libero. Nunc a augue fermentum, pharetra ligula sed,
-            aliquam lacus.
+            My journey in the financial sector has equipped me with a deep understanding of the unique challenges and opportunities faced by our members. I believe that by pooling our resources and knowledge, we can create a more resilient and prosperous community..
           </p>
         </div>
 

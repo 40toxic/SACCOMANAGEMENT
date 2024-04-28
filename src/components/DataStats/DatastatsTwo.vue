@@ -20,9 +20,9 @@ const cardItems = ref([
             fill=""
           />
         </svg>`,
-    title: 'Customer Overview',
-    total: '56K',
-    growthRate: 0.43
+    title: 'Emergency Fund',
+    total: '20,000,000',
+    growthRate: 50.43
   },
   {
     icon: `<svg
@@ -46,9 +46,9 @@ const cardItems = ref([
               fill=""
             />
           </svg>`,
-    title: 'Savings Transactions',
-    total: 'Ksh 50.4M',
-    growthRate: 4.35
+    title: 'Group Savings',
+    total: '8,420,000',
+    growthRate: 30.20
   },
   {
     icon: `<svg
@@ -68,9 +68,9 @@ const cardItems = ref([
               fill=""
             />
           </svg>`,
-    title: 'Savings Performance ',
-    total: 'ksh10.2M',
-    growthRate: 2.59
+    title: 'Long-Term Goals',
+    total: '110,000,000',
+    growthRate: 40.59
   },
   {
     icon: `<svg
@@ -94,9 +94,9 @@ const cardItems = ref([
               fill=""
             />
           </svg>`,
-    title: 'Savings Products',
-    total: '4',
-    growthRate: +0.95
+    title: 'Short-Term Goals',
+    total: '23,657,345',
+    growthRate: +50.95
   }
 ])
 </script>
@@ -115,7 +115,7 @@ const cardItems = ref([
 
     <div class="mt-4 flex items-end justify-between">
       <div>
-        <h4 class="text-title-md font-bold text-black dark:text-white">{{ item.total }}</h4>
+        <h4 class="text-title-md font-bold text-black dark:text-white">KSH{{ item.total }}</h4>
         <span class="text-sm font-medium">{{ item.title }}</span>
       </div>
 

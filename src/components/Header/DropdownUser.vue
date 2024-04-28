@@ -18,12 +18,12 @@ onClickOutside(target, () => {
       @click.prevent="dropdownOpen = !dropdownOpen"
     >
       <span class="hidden text-right lg:block">
-        <span class="block text-sm font-medium text-black dark:text-white">Thomas Anree</span>
-        <span class="block text-xs font-medium">UX Designer</span>
+        <span class="block text-sm font-medium text-black dark:text-white">KAMANDE</span>
+        <span class="block text-xs font-medium">SACCO ADMIN</span>
       </span>
 
       <span class="h-12 w-12 rounded-full">
-        <img src="@/assets/images/user/user-01.png" alt="User" />
+        <img src="@/assets/images/user/user-25.png" alt="User" />
       </span>
 
       <svg
