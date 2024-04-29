@@ -19,36 +19,36 @@ const messagesList = ref([
   {
     route: '#',
     userImg: userTwo,
-    name: 'Mariya Desoja',
-    message: 'I like your confidence 💪',
+    name: 'Maiya Deja',
+    message: 'Set up a meeting',
     time: '2min ago'
   },
   {
     route: '#',
     userImg: userOne,
-    name: 'Robert Jhon',
-    message: 'Can you share your offer?',
+    name: 'Bert dron',
+    message: 'Today the reports are great',
     time: '10min ago'
   },
   {
     route: '#',
     userImg: userThree,
-    name: 'Henry Dholi',
-    message: 'I cam across your profile and...',
+    name: 'Henry Havey',
+    message: 'The office needs more space',
     time: '1day ago'
   },
   {
     route: '#',
     userImg: userFour,
-    name: 'Cody Fisher',
+    name: 'Trent Lucas',
     message: 'I’m waiting for you response!',
     time: '5day ago'
   },
   {
     route: '#',
     userImg: userTwo,
-    name: 'Mariya Desoja',
-    message: 'I like your confidence 💪',
+    name: 'Samuel Greg',
+    message: 'The meeting is about to begin',
     time: '2min ago'
   }
 ])

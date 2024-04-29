@@ -6,7 +6,7 @@ import SelectGroupTwo from '@/components/Forms/SelectGroup/SelectGroupTwo.vue'
 import DefaultLayout from '@/layouts/DefaultLayout.vue'
 import { ref } from 'vue'
 
-const pageTitle = ref('Form Layout')
+const pageTitle = ref('Inquery about the investment products  ')
 </script>
 
 <template>
@@ -47,9 +47,9 @@ const pageTitle = ref('Form Layout')
               />
 
               <InputGroup
-                label="Subject"
+                label="Investment"
                 type="text"
-                placeholder="Enter your subject"
+                placeholder="Enter product you wish to know more about "
                 customClasses="mb-4.5"
               />
 

@@ -2,10 +2,26 @@
 import { ref } from 'vue'
 
 const packages = ref([
-  { name: 'Free Package', price: '$0.00', invoiceDate: 'Jan 13, 2025', status: 'Paid' },
-  { name: 'Standard Package', price: '$59.00', invoiceDate: 'Jan 13, 2025', status: 'Paid' },
-  { name: 'Business Package', price: '$99.00', invoiceDate: 'Jan 13, 2025', status: 'Unpaid' },
-  { name: 'Standard Package', price: '$59.00', invoiceDate: 'Jan 13, 2025', status: 'Pending' }
+  { name: 'Regina Maina', Balance: 'KSH200,000.00', invoiceDate: 'Feb 20, 2023', status: 'Active' },
+  { name: 'Riance Kariuki', Balance: 'KSH230,000.00', invoiceDate: 'Jan 3, 2024', status: 'Active' },
+  { name: 'Joseph Nderi', Balance: 'KSH10,000.00', invoiceDate: 'July 7, 2024', status: 'Unactive' },
+  { name: 'Michael Onyango', Balance: 'KSH50,000.00', invoiceDate: 'June 5, 2024', status: 'Pending' },
+  { name: 'Regina Maina', Balance: 'KSH30,000.00', invoiceDate: 'Jan 21, 2024', status: 'Active' },
+  { name: 'Riance Kariuki', Balance: 'KSH200,000.00', invoiceDate: 'Jan 8, 2024', status: 'Active' },
+  { name: 'Joseph Nderi', Balance: 'KSH50,000.00', invoiceDate: 'Sept 12, 2024', status: 'Unactive' },
+  { name: 'Michael Onyango', Balance: 'KSH56,900.00', invoiceDate: 'October 13, 2024', status: 'Pending' },
+  { name: 'Regina Maina', Balance: 'KSH95,000.00', invoiceDate: 'Jan 5, 2024', status: 'Active' },
+  { name: 'Riance Kariuki', Balance: 'KSH98,600.00', invoiceDate: 'May 3, 2024', status: 'Active' },
+  { name: 'Joseph Nderi', Balance: 'KSH653,000.00', invoiceDate: 'Jan 7, 2024', status: 'Unactive' },
+  { name: 'Michael Onyango', Balance: 'KSH43,200.00', invoiceDate: 'Nov 26, 2024', status: 'Pending' },
+  { name: 'Regina Maina', Balance: 'KSH32,300.00', invoiceDate: 'April 18, 2024', status: 'Active' },
+  { name: 'Riance Kariuki', Balance: 'KSH6920.00', invoiceDate: 'March 12, 2024', status: 'Active' },
+  { name: 'Joseph Nderi', Balance: 'KSH934,700.00', invoiceDate: 'Dec 9, 2024', status: 'Unactive' },
+  { name: 'Michael Onyango', Balance: 'KSH8,934,000.00', invoiceDate: 'Jan 3, 2024', status: 'Pending' },
+  { name: 'Regina Maina', Balance: 'KSH63,925,000.00', invoiceDate: 'June 5, 2024', status: 'Active' },
+  { name: 'Riance Kariuki', Balance: 'KSH268,000.00', invoiceDate: 'Jan 8, 2024', status: 'Active' },
+  { name: 'Joseph Nderi', Balance: 'KSH275,000.00', invoiceDate: 'May 27, 2024', status: 'Unactive' },
+  { name: 'Michael Onyango', Balance: 'KSH7,453,900.00', invoiceDate: 'Jan 18, 2024', status: 'Pending' }
 ])
 </script>
 
@@ -18,10 +34,10 @@ const packages = ref([
         <thead>
           <tr class="bg-gray-2 text-left dark:bg-meta-4">
             <th class="min-w-[220px] py-4 px-4 font-medium text-black dark:text-white xl:pl-11">
-              Package
+              Customer
             </th>
             <th class="min-w-[150px] py-4 px-4 font-medium text-black dark:text-white">
-              Invoice date
+              Membership 
             </th>
             <th class="min-w-[120px] py-4 px-4 font-medium text-black dark:text-white">Status</th>
             <th class="py-4 px-4 font-medium text-black dark:text-white">Actions</th>
@@ -31,7 +47,7 @@ const packages = ref([
           <tr v-for="(item, index) in packages" :key="index">
             <td class="py-5 px-4 pl-9 xl:pl-11">
               <h5 class="font-medium text-black dark:text-white">{{ item.name }}</h5>
-              <p class="text-sm">{{ item.price }}</p>
+              <p class="text-sm">{{ item.Balance }}</p>
             </td>
             <td class="py-5 px-4">
               <p class="text-black dark:text-white">{{ item.invoiceDate }}</p>
@@ -41,8 +57,8 @@ const packages = ref([
                 class="inline-flex rounded-full bg-opacity-10 py-1 px-3 text-sm font-medium"
                 :class="{
                   'bg-warning text-warning': item.status === 'Pending',
-                  'bg-danger text-danger': item.status === 'Unpaid',
-                  'bg-success text-success': item.status === 'Paid'
+                  'bg-danger text-danger': item.status === 'Unactive',
+                  'bg-success text-success': item.status === 'Active'
                 }"
               >
                 {{ item.status }}

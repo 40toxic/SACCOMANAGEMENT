@@ -2,11 +2,11 @@
 import { ref } from 'vue'
 
 const formData = ref({
-  fullName: 'Devid Jhon',
-  phoneNumber: '+990 3343 7865',
-  emailAddress: 'devidjond45@gmail.com',
-  username: 'devidjhon24',
-  bio: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere fermentum urna, eu condimentum mauris tempus ut. Donec fermentum blandit aliquet.'
+  fullName: 'Kamande Kariuki',
+  phoneNumber: '+254 000 000 000',
+  emailAddress: 'kmandekari5@gmail.com',
+  username: 'kmande24',
+  bio: 'GLAD TO JOIN SUCH A WONDERFUL ORGANIZATION.'
 })
 
 import userPhoto from '@/assets/images/user/user-03.png'

@@ -11,7 +11,7 @@ const changeTextColor = () => {
 
 <template>
   <div class="mb-4.5">
-    <label class="mb-2.5 block text-black dark:text-white"> Subject </label>
+    <label class="mb-2.5 block text-black dark:text-white"> Country </label>
 
     <div class="relative z-20 bg-transparent dark:bg-form-input">
       <select
@@ -20,9 +20,9 @@ const changeTextColor = () => {
         :class="{ 'text-black dark:text-white': isOptionSelected }"
         @change="changeTextColor"
       >
-        <option value="" disabled selected>Type your subject</option>
-        <option value="USA">USA</option>
-        <option value="UK">UK</option>
+        <option value="" disabled selected>Type your Country</option>
+        <option value="Kenya">Kenya</option>
+        <option value="Uganda">Uganda</option>
         <option value="Canada">Canada</option>
       </select>
 

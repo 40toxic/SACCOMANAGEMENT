@@ -3,15 +3,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import SigninView from '@/views/Authentication/SigninView.vue'
 import SignupView from '@/views/Authentication/SignupView.vue'
 import Savingsperfomance from '@/views/Savingsperfomance.vue'
-import BasicChartView from '@/views/Charts/BasicChartView.vue'
 import Home from '@/views/Dashboard/Home.vue'
-import FormElementsView from '@/views/Forms/FormElementsView.vue'
-import FormLayoutView from '@/views/Forms/FormLayoutView.vue'
+import investmentform from '@/views/Forms/investmentform.vue'
+import queryform from '@/views/Forms/queryform.vue'
 import SettingsView from '@/views/Pages/SettingsView.vue'
 import ProfileView from '@/views/ProfileView.vue'
 import TablesView from '@/views/TablesView.vue'
-import AlertsView from '@/views/UiElements/AlertsView.vue'
-import ButtonsView from '@/views/UiElements/ButtonsView.vue'
+import clientprofile  from '@/views/UiElements/clientprofile.vue'
+
 
 const routes = [
   {
@@ -39,19 +38,19 @@ const routes = [
     }
   },
   {
-    path: '/forms/form-elements',
-    name: 'formElements',
-    component: FormElementsView,
+    path: '/forms/investmentform',
+    name: 'investmentform',
+    component: investmentform,
     meta: {
-      title: 'Form Elements'
+      title: 'investmentform'
     }
   },
   {
-    path: '/forms/form-layout',
-    name: 'formLayout',
-    component: FormLayoutView,
+    path: '/forms/queryform',
+    name: 'queryform',
+    component: queryform,
     meta: {
-      title: 'Form Layout'
+      title: 'queryform'
     }
   },
   {
@@ -70,30 +69,16 @@ const routes = [
       title: 'Settings'
     }
   },
+  
   {
-    path: '/charts/basic-chart',
-    name: 'basicChart',
-    component: BasicChartView,
+    path: '/ui-elements/clientprofile',
+    name: 'clientprofileview',
+    component: clientprofile,
     meta: {
-      title: 'Basic Chart'
+      title: 'clientprofile'
     }
   },
-  {
-    path: '/ui-elements/alerts',
-    name: 'alerts',
-    component: AlertsView,
-    meta: {
-      title: 'Alerts'
-    }
-  },
-  {
-    path: '/ui-elements/buttons',
-    name: 'buttons',
-    component: ButtonsView,
-    meta: {
-      title: 'Buttons'
-    }
-  },
+  
   {
     path: '/auth/signin',
     name: 'signin',

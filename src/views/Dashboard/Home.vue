@@ -4,9 +4,9 @@ import ChartOne from '@/components/Charts/ChartOne.vue'
 import ChartThree from '@/components/Charts/ChartThree.vue'
 import ChartTwo from '@/components/Charts/ChartTwo.vue'
 import ChatCard from '@/components/ChatCard.vue'
-import MapOne from '@/components/Maps/MapOne.vue'
 import TableOne from '@/components/Tables/TableOne.vue'
 import DefaultLayout from '@/layouts/DefaultLayout.vue'
+import ChartPoint2 from '@/components/Charts/ChartPoint2.vue'
 </script>
 
 <template>
@@ -15,7 +15,7 @@ import DefaultLayout from '@/layouts/DefaultLayout.vue'
       <DataStatsOne />
     </div>
 
-    <div class="mt-4 grid grid-cols-12 gap-4 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
+    <div class="mt-4 grid grid-cols-12 gap-10 md:mt-6 md:gap-6 2xl:mt-7.5 2xl:gap-7.5">
       <!-- ====== Chart One Start -->
       <ChartOne />
       <!-- ====== Chart One End -->
@@ -28,9 +28,12 @@ import DefaultLayout from '@/layouts/DefaultLayout.vue'
       <ChartThree />
       <!-- ====== Chart Three End -->
 
-      <!-- ====== Map One Start -->
-      <MapOne />
-      <!-- ====== Map One End -->
+      <!-- ====== Point2 Start -->
+      <div class="col-span-4 xl:col-span-7">
+        <ChartPoint2 />
+      </div>
+      
+      <!-- ====== point2 End -->
 
       <!-- ====== Table One Start -->
       <div class="col-span-12 xl:col-span-8">
